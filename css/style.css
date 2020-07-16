@@ -21,34 +21,98 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('https://svgshare.com/i/MxM.svg');
+    background-image: url('https://svgshare.com/i/MxY.svg');
     background-size: cover;
     height: 100vh;
     font-size: 2rem;
+    color: #fff;
 }
 .container-top{
+    border-radius: .7rem;
     margin-top: 15rem;
     background-color: var(--colro-blue);
     padding: 2rem 5rem;
-    flex: 0 1 40%;
+    flex: 0 1 20%;
+    width: 50%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    border-radius: 4rem;
 }
 .container-bottom{
-    border-radius: 4rem;
+    border-radius: .7rem;
     padding: 2rem 5rem;
-    background-color: var(--color-red);
+    background-color: var(--color-blue-extra-dark);
     transition: all .2s;
     opacity: 0;
- 
+    margin-top: 3rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 table{
-    padding: 2rem;
+    border-spacing: 5rem;
+    background-color: var(--color-blue-dark);
+    border: 1px solid var(--color-red);
+    border-radius: .7rem;
+    
 }
 .show{
     opacity: 1;
     transition: all .2s;
+}
+form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input, input:focus{
+    margin-right: 10rem;
+    height: 4rem;
+    width: 30rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    background-color: var(#fff);
+    font-size: 2rem;
+}
+select{
+    height: 4rem;
+    width: 30rem;
+    border-radius: .5rem;
+}
+.btn{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    border-radius: 200px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: all .2s;
+    
+}
+.btn:hover{
+    transform: translateY(-4px);
+    background-color: var(--color-blue-dark);
+    color: #fff;
+}
+.btn:active{
+    transform: translateY(0px);
+}
+.user__data-sconto{
+    height: 4rem;
+    width: 30rem;
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+}
+.heding-biglietto{
+    margin: 2rem 0;
+    color: var(--color-blue-extra-dark);
 }
 
 

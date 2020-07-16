@@ -42,6 +42,8 @@ document.getElementById("calcola").addEventListener("click", function (e) {
   document.getElementById("prezzo").innerHTML = prezzo;
   e.preventDefault();
 });
+
+// funzione per il tasto annulla 
 document.getElementById("annulla").addEventListener("click", function () {
   containerHidden.remove("show");
 });
