@@ -47,7 +47,7 @@ html{
     transition: all .2s;
     opacity: 0;
     margin-top: 3rem;
-    width: 40%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,6 +69,7 @@ form{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 input, input:focus{
     margin-right: 10rem;
@@ -79,6 +80,7 @@ input, input:focus{
     border: none;
     background-color: var(#fff);
     font-size: 2rem;
+    color: var(--color-blue-extra-dark);
 }
 select{
     height: 4rem;
@@ -95,6 +97,7 @@ select{
     cursor: pointer;
     font-size: 2rem;
     transition: all .2s;
+    color: var(--color-blue-extra-dark);
     
 }
 .btn:hover{
