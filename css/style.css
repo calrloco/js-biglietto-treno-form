@@ -26,6 +26,7 @@ html{
     height: 100vh;
     font-size: 2rem;
     color: #fff;
+    width: 100vw;
 }
 .container-top{
     border-radius: .7rem;
@@ -38,6 +39,7 @@ html{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 .container-bottom{
