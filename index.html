@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cotainer">
+      <div class="container-top">
+        <form action="" method="post" class="user__data">
+          <input type="text" class="user__data-name" id="input-user-name" />
+          <input type="number" class="user__data-km" id="input-user-km" />
+          <select name="" id="input-user-sconto" class="user__data-sconto">
+            <option value="full">Maggiorenne</option>
+            <option value="min">Minorenne</option>
+            <option value="silver">Over 65</option>
+          </select>
+          <button href="#" class="btn-invia" id="calcola">Calcola tariffa</button>
+          <button href="#" class="btn-invia" id="annulla">Annulla</button>
+        </form>
+      </div>
+      <div class="container-bottom" id="container-hidden">
+        <h3 class="heding-biglietto">Il Tuo biglietto</h3>
+        <div class="biglietto">
+          <div class="biglietto__dettagli">
+            <p class="biglietto__dettagli-heading">Dettagli Passegero</p>
+            <table class="container-bottom__dettagli">
+              <tr class="table-heading-row">
+                <th class="table-heading">Nome Passegero</th>
+                <th class="table-heading">Offerta</th>
+                <th class="table-heading">Carrozza</th>
+                 <th class="table-heading">Codice Cp</th>
+                <th class="table-heading">Costo Biglietto</th>
+              </tr>
+              <tr class="table-data-row">
+                <td class="table-data" id="nome-user"></td>
+                <td class="table-data" id="sconto-user"></td>
+                <td class="table-data" id="carozza"></td>
+                <td class="table-data" id="codice"></td>
+                <td class="table-data" id="prezzo"></td>
+              </tr>
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>

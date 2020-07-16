@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --color-yellow:#f8e9a1;
+    --color-red:#f76c6c;
+    --colro-blue:#a8d0e6;
+    --color-blue-dark:#374785;
+    --color-blue-extra-dark:#24305e;
+
+}
+.cotainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://svgshare.com/i/MxM.svg');
+    background-size: cover;
+    height: 100vh;
+    font-size: 2rem;
+}
+.container-top{
+    margin-top: 15rem;
+    background-color: var(--colro-blue);
+    padding: 2rem 5rem;
+    flex: 0 1 40%;
+    display: flex;
+    justify-content: center;
+    border-radius: 4rem;
+}
+.container-bottom{
+    border-radius: 4rem;
+    padding: 2rem 5rem;
+    background-color: var(--color-red);
+    transition: all .2s;
+    opacity: 0;
+ 
+}
+table{
+    padding: 2rem;
+}
+.show{
+    opacity: 1;
+    transition: all .2s;
+}
+
+
