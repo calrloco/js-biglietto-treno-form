@@ -121,6 +121,8 @@ select{
     font-size: 2rem;
 }
 .heding-biglietto{
+    font-weight: 700;
+    font-size: 3rem;
     margin: 2rem 0;
     color: var(--color-blue-extra-dark);
     
