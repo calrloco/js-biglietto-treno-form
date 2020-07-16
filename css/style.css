@@ -96,10 +96,12 @@ select{
     border-radius: 200px;
     outline: none;
     border: none;
+    background-color: var(--color-red);
+    color: #fff;
     cursor: pointer;
     font-size: 2rem;
     transition: all .2s;
-    color: var(--color-blue-extra-dark);
+    
     
 }
 .btn:hover{
