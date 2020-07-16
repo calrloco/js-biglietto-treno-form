@@ -39,7 +39,7 @@ document.getElementById("calcola").addEventListener("click", function (e) {
   document.getElementById("sconto-user").innerHTML = sconto;
   document.getElementById("carozza").innerHTML = carrozza;
   document.getElementById("codice").innerHTML = codiceTreno;
-  document.getElementById("prezzo").innerHTML = prezzo.toFixed(2);
+  document.getElementById("prezzo").innerHTML = prezzo.toFixed(2) + '€';
   e.preventDefault();
 });
 
