@@ -11,8 +11,10 @@
     <div class="cotainer">
       <div class="container-top">
         <form action="" method="post" class="user__data">
-          <input type="text" class="user__data-name" id="input-user-name" />
-          <input type="number" class="user__data-km" id="input-user-km" />
+          <label for="input-user-name">Nome</label>
+          <input type="text" class="user__data-name" name="nome" id="input-user-name" />
+          <label for="input-user-km">Km</label>
+          <input type="number" name="km" class="user__data-km" id="input-user-km" />
           <select name="" id="input-user-sconto" class="user__data-sconto">
             <option value="full">Maggiorenne</option>
             <option value="min">Minorenne</option>
