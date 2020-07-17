@@ -7,7 +7,6 @@ document.getElementById("calcola").addEventListener("click", function () {
   var km = document.getElementById("input-user-km").value;
   //var output biglietto
   var codiceTreno = getRndInteger(90000, 100000); 
- 
   var carrozza = Math.floor(Math.random() * 12) + 1;
   var prezzo = 0.21 * km;
   // controllo sui campi inseriti
