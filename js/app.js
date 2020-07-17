@@ -19,12 +19,12 @@ document.getElementById("calcola").addEventListener("click", function () {
         boolCheck = false;
   }
   if (boolCheck == false){
-        alert('il nome inserito non e valido')
+        alert('il nome inserito non e valido');
         location.reload();
   }
   // controllo km per evitare che vengano inseriti valori negativi
   if (km < 1){
-      alert('inserire i km')
+      alert('inserire i km');
       location.reload();
   }
   //calcolo prezzo
