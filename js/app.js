@@ -6,7 +6,8 @@ document.getElementById("calcola").addEventListener("click", function () {
   var sconto = document.getElementById("input-user-sconto").value;
   var km = document.getElementById("input-user-km").value;
   //var output biglietto
-  var codiceTreno = Math.floor(Math.random() * (100000 - 90000)) + 90000;
+  var codiceTreno = getRndInteger(90000, 100000); 
+ 
   var carrozza = Math.floor(Math.random() * 12) + 1;
   var prezzo = 0.21 * km;
   // controllo sui campi inseriti
@@ -32,6 +33,10 @@ document.getElementById("calcola").addEventListener("click", function () {
     prezzo -= (20 * prezzo) / 100;
   } else if (sconto == "silver") {
     prezzo -= (40 * prezzo) / 100;
+  }
+  //////////////
+  function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min) ) + min;
   }
   /// dom manipulation
   containerHidden.add("show");
