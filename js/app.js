@@ -11,7 +11,7 @@ document.getElementById("calcola").addEventListener("click", function () {
   var prezzo = 0.21 * km;
   // controllo sui campi inseriti
   //controllo nome
-  var letters = /^[A-Za-z]+$/;
+  var letters = /^[a-zA-Z\s]*$/;
   var boolCheck;
   if(nome.match(letters)){
         boolCheck = true;
