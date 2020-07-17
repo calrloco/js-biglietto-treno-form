@@ -83,6 +83,7 @@ input, input:focus{
     background-color: var(#fff);
     font-size: 2rem;
     color: var(--color-blue-extra-dark);
+    
 }
 select{
     height: 4rem;
