@@ -39,7 +39,7 @@ document.getElementById("calcola").addEventListener("click", function () {
   }
   /// dom manipulation
   containerHidden.add("show");
-  document.getElementById("nome-user").innerHTML = nome;
+  document.getElementById("nome-user").innerHTML = nome.replace(/(^\w|\s\w)/g, m => m.toUpperCase());;
   document.getElementById("sconto-user").innerHTML = sconto;
   document.getElementById("carozza").innerHTML = carrozza;
   document.getElementById("codice").innerHTML = codiceTreno;
