@@ -1,6 +1,6 @@
 // variabile globale per la transazione 
 var containerHidden = document.getElementById("container-hidden").classList;
-document.getElementById("calcola").addEventListener("click", function (e) {
+document.getElementById("calcola").addEventListener("click", function () {
   // var in input dall'utente
   var nome = document.getElementById("input-user-name").value;
   var sconto = document.getElementById("input-user-sconto").value;
@@ -40,7 +40,7 @@ document.getElementById("calcola").addEventListener("click", function (e) {
   document.getElementById("carozza").innerHTML = carrozza;
   document.getElementById("codice").innerHTML = codiceTreno;
   document.getElementById("prezzo").innerHTML = prezzo.toFixed(2) + '€';
-  e.preventDefault();
+  
 });
 
 // funzione per il tasto annulla 
